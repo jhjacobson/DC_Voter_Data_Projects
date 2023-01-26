@@ -8,7 +8,7 @@ Step 2:
 Download the [GeoJSON file of the Single Member Districts from OpenDataDC](https://opendata.dc.gov/datasets/single-member-district-from-2023). Add that to the `data` folder.
 
 Step 3:
-Place the file in the `data` folder and make sure it is named `general_election_2022_voter_file` and is an XLSX file.
+Place the file in the `data` folder and make sure it is named `general_election_2022_voter_file.xlsx` and is an XLSX file.
 
 Step 4:
 At the command line, run `python3 plot.py`, and you will see the figure generated under `SMDs.png`. 
@@ -19,6 +19,7 @@ At the command line, run `python3 plot.py`, and you will see the figure generate
 # Notes
 * DC does not regularly purge voter files (as far as I'm aware). This is a good thing - it makes it less likely that someone will lose the ability to vote by being removed from the voter roll. However, this does mean that very transient areas will likely have lower turnout by default.
 * Here is a mapping of what the abbreviation for a voting column means in the voter file means:
+
 | Abbreviation | Meaning |
 | ------------- | ------------- |
 | A	| Voted absentee (includes referred ballots that were accepted) |
